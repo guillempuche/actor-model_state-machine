@@ -1,0 +1,34 @@
+{
+	"name": "actor-model_state-machine",
+	"private": true,
+	"version": "0.0.0",
+	"type": "module",
+	"scripts": {
+		"dev": "vite",
+		"build": "tsc && vite build",
+		"lint": "biome check --apply --no-errors-on-unmatched .",
+		"preview": "vite preview"
+	},
+	"dependencies": {
+		"@statelyai/inspect": "^0.2.5",
+		"@xstate/react": "^4.1.0",
+		"classnames": "^2.5.1",
+		"react": "^18.2.0",
+		"react-dom": "^18.2.0",
+		"ts-results": "^3.3.0",
+		"uuid": "^9.0.1",
+		"xstate": "^5.9.1"
+	},
+	"devDependencies": {
+		"@biomejs/biome": "^1.6.1",
+		"@types/react": "^18.2.64",
+		"@types/react-dom": "^18.2.21",
+		"@types/uuid": "^9.0.8",
+		"@vitejs/plugin-react-swc": "^3.6.0",
+		"autoprefixer": "^10.4.18",
+		"postcss": "^8.4.35",
+		"typescript": "^5.2.2",
+		"vite": "^5.1.6"
+	},
+	"packageManager": "yarn@4.1.1"
+}
